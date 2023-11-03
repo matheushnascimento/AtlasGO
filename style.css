@@ -27,11 +27,9 @@ body {
   overflow-x: hidden;
   max-width: 100vw;
 
-  background: linear-gradient(
-    to bottom,
-    var(--primary-color-blue),
-    var(--secondary-color-purple)
-  );
+  background: linear-gradient(to bottom,
+      var(--primary-color-blue),
+      var(--secondary-color-purple));
 
   font-family: var(--font-default);
   color: var(--secondary-color-white);
@@ -96,7 +94,7 @@ h2 {
 }
 
 main {
-  margin: 0.7rem;
+  margin: 0.5rem;
 }
 
 .main-title {
@@ -105,21 +103,19 @@ main {
   border-radius: 2.5rem;
 
   padding: 2.5rem;
-  margin: 2.5rem;
+  margin: 2.5rem 0;
 
-  -webkit-animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
+  -webkit-animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 section {
-  margin: 2.5rem;
-  padding: 2.5rem;
+  margin: 2.5rem 0;
+  padding: 1rem;
   border-radius: 5rem;
   background: var(--translucent-bg);
 
-  -webkit-animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
+  -webkit-animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -131,8 +127,7 @@ figure {
   border-radius: 2.5rem;
   background: var(--secondary-color-purple);
 
-  -webkit-animation: scale-in-top 0.3s 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
+  -webkit-animation: scale-in-top 0.3s 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-in-top 0.3s 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -152,7 +147,7 @@ figcaption p {
 }
 
 figure img {
-  max-height: 25rem;
+  box-shadow: var(--box-shadow);
   object-fit: cover;
   object-position: top;
   border-radius: 0.5rem;
@@ -185,6 +180,7 @@ footer a {
     transform: translateY(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -198,6 +194,7 @@ footer a {
     transform: translateY(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -211,6 +208,7 @@ footer a {
     transform: translateX(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -224,6 +222,7 @@ footer a {
     transform: translateX(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -239,6 +238,7 @@ footer a {
     transform-origin: 50% 0%;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -256,6 +256,7 @@ footer a {
     transform-origin: 50% 0%;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
