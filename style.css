@@ -194,17 +194,15 @@ footer a {
     background: none;
   }
 
-
   figure {
-    flex: calc(50% - var(--section-gap));
-
+    max-width: calc(50% - var(--section-gap));
     box-shadow: var(--box-shadow);
 
   }
 
   figure img {
     max-width: 41rem;
-    /* max-width: 410px; */
+    /* 410px; */
   }
 
   figure:first-child,
