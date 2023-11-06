@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>AtlasGO</title>
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <style>
+    body {
+      font-family: "Noto Sans KR", sans-serif;
+    }
+
+    h1 {
+      font-family: "Lilita One", sans-serif;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #6736dd;
+      font-family: "Lilita One", sans-serif;
+      font-weight: normal;
+    }
+
+    tr:hover {
+      background-color: #363636;
+    }
+
+    th,
+    td {
+      border: 1px solid #192040;
+    }
+
+    .status-atendimento span {
+      padding: 4px;
+      background-color: rgba(255, 0, 255, 0.5);
+      border-radius: 0.5rem;
+    }
+
+    .status-acompanhando span {
+      padding: 4px;
+      background-color: rgba(0, 0, 255, 0.5);
+      border-radius: 0.5rem;
+    }
+
+    .status-pos-venda span {
+      padding: 4px;
+      background-color: rgba(0, 255, 0, 0.5);
+      border-radius: 0.5rem;
+    }
+  </style>
+
+  <body>
+    <header>
+      <h2>AtlasGO</h2>
+
+      <img src="../assets/images/logo.png" alt="" class="logo" />
+    </header>
+
+    <h1>Agência Hawk Controle</h1>
+    <table border="1">
+      <tr>
+        <th>Status</th>
+        <th>Cliente</th>
+        <th>Email</th>
+        <th>Telefone</th>
+        <th>Data de Contato</th>
+        <th>Destino</th>
+        <th>Interesse</th>
+        <th>Última Atualização</th>
+      </tr>
+      <tr>
+        <td class="status-pos-venda"><span>Pós venda</span></td>
+        <td>João da Silva</td>
+        <td>joao@email.com</td>
+        <td>(11) 1234-5678</td>
+        <td>2023-11-01</td>
+        <td>Paris</td>
+        <td>Pacote de Lua de Mel</td>
+        <td>2023-11-05</td>
+      </tr>
+      <tr>
+        <td class="status-acompanhando"><span>Acompanhando</span></td>
+        <td>Maria Pereira</td>
+        <td>maria@email.com</td>
+        <td>(21) 9876-5432</td>
+        <td>2023-10-25</td>
+        <td>Nova Iorque</td>
+        <td>Passeio em Família</td>
+        <td>2023-11-03</td>
+      </tr>
+      <tr>
+        <td class="status-acompanhando"><span>Acompanhando</span></td>
+        <td>Carlos Souza</td>
+        <td>carlos@email.com</td>
+        <td>(31) 5555-9999</td>
+        <td>2023-10-20</td>
+        <td>Rio de Janeiro</td>
+        <td>Viagem de Negócios</td>
+        <td>2023-11-01</td>
+      </tr>
+      <tr>
+        <td class="status-pos-venda"><span>Pós venda</span></td>
+        <td>Ana Rodrigues</td>
+        <td>ana@email.com</td>
+        <td>(41) 7777-3333</td>
+        <td>2023-10-15</td>
+        <td>Tóquio</td>
+        <td>Passeio Cultural</td>
+        <td>2023-10-31</td>
+      </tr>
+      <tr>
+        <td class="status-acompanhando"><span>Acompanhando</span></td>
+        <td>Luis Santos</td>
+        <td>luis@email.com</td>
+        <td>(51) 1111-8888</td>
+        <td>2023-10-10</td>
+        <td>Miami</td>
+        <td>Viagem de Aniversário</td>
+        <td>2023-10-30</td>
+      </tr>
+      <tr>
+        <td class="status-atendimento"><span>Atendimento</span></td>
+        <td>Sofia Oliveira</td>
+        <td>sofia@email.com</td>
+        <td>(61) 2222-7777</td>
+        <td>2023-10-05</td>
+        <td>Londres</td>
+        <td>Pacote de Lua de Mel</td>
+        <td>2023-10-29</td>
+      </tr>
+      <tr>
+        <td class="status-atendimento"><span>Atendimento</span></td>
+        <td>Ricardo Ferreira</td>
+        <td>ricardo@email.com</td>
+        <td>(71) 3333-6666</td>
+        <td>2023-09-30</td>
+        <td>Bali</td>
+        <td>Passeio em Família</td>
+        <td>2023-10-28</td>
+      </tr>
+      <tr>
+        <td class="status-pos-venda"><span>Pós venda</span></td>
+        <td>Lara Fernandes</td>
+        <td>lara@email.com</td>
+        <td>(81) 4444-5555</td>
+        <td>2023-09-25</td>
+        <td>Cancún</td>
+        <td>Viagem de Negócios</td>
+        <td>2023-10-27</td>
+      </tr>
+      <tr>
+        <td class="status-atendimento"><span>Atendimento</span></td>
+        <td>Gustavo Almeida</td>
+        <td>gustavo@email.com</td>
+        <td>(91) 6666-2222</td>
+        <td>2023-09-20</td>
+        <td>Sydney</td>
+        <td>Passeio Cultural</td>
+        <td>2023-10-26</td>
+      </tr>
+      <tr>
+        <td class="status-pos-venda"><span>Pós venda</span></td>
+        <td>Júlia Gomes</td>
+        <td>julia@email.com</td>
+        <td>(101) 7777-9999</td>
+        <td>2023-09-15</td>
+        <td>Barcelona</td>
+        <td>Viagem de Aniversário</td>
+        <td>2023-10-25</td>
+      </tr>
+    </table>
+  </body>
+</html>
