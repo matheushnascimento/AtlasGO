@@ -221,6 +221,10 @@ footer a {
     box-shadow: none;
   }
 
+  figcaption {
+    font-size: clamp(1.4rem, 1vw + 0.4rem, 2rem)
+  }
+
 }
 
 /* Animações */
