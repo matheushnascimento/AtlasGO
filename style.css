@@ -122,8 +122,6 @@ section {
 
   border-radius: 5rem;
 
-  background: var(--translucent-bg);
-
   -webkit-animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-in-top 0.3s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -193,7 +191,9 @@ footer a {
     display: flex;
     flex-wrap: wrap;
 
-    background: none;
+    background: var(--translucent-bg);
+
+    border-radius: 2.5rem;
   }
 
   figure {
